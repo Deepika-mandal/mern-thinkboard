@@ -39,9 +39,6 @@ const NoteCard = ({ note, setNotes }) => {
                         <button className='btn btn-ghost btn-xs text-error' onClick={(e)=>handleDelete(e,note._id)}>
                             <Trash2Icon className='size-4' />
                         </button>
-                        <span className='text-sm text-base-content/60'>
-                            Edit
-                        </span>
                     </div>
                 </div>
             </div>
